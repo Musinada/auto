@@ -88,6 +88,12 @@ helm version --client
 sudo su - jenkins
 
 
+##############################################################
+#Create EKS cluster using eksctl command
+
+eksctl create cluster --name demo-eks --region ap-south-1 --nodegroup-name my-nodes --node-type t3.small --managed --nodes 2 
+
+
 ##################################################################
 #Install Docker
 
@@ -117,13 +123,6 @@ sudo systemctl daemon-reload
 sudo service docker stop
 sudo service docker start
 
-
-
-
-##############################################################
-#Create EKS cluster using eksctl command
-
-eksctl create cluster --name demo-eks --region ap-south-1 --nodegroup-name my-nodes --node-type t3.small --managed --nodes 2 
 
 
 
