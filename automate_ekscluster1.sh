@@ -123,7 +123,21 @@ sudo systemctl daemon-reload
 sudo service docker stop
 sudo service docker start
 
+# Steps:
+# Now Login to Jenkins EC2 instance, execute below commands:
 
+# Add jenkins user to Docker group
+sudo usermod -a -G docker jenkins
+
+# Restart Jenkins service
+sudo service jenkins restart
+
+# Reload system daemon files
+sudo systemctl daemon-reload
+
+#Restart Docker service as well
+sudo service docker stop
+sudo service docker start
 
 
 
