@@ -48,6 +48,9 @@ sudo apt-get install jenkins -y
 
 echo "Jenkins installed successfully.."
 
+
+# copythe public dns name with 8080 port
+
 ##################################################################
 #Install Docker
 
