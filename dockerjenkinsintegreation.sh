@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 ###################################################
 # Author: Anil
@@ -10,7 +10,7 @@
 # This job is to setup Docker on vm &
 # Docker Jenkins integretion
 ###################################################
-#!/bin/bash
+
 
 set -x
 
