@@ -125,7 +125,6 @@ sudo service docker start
 
 # Steps:
 # Now Login to Jenkins EC2 instance, execute below commands:
-
 # Add jenkins user to Docker group
 sudo usermod -a -G docker jenkins
 
@@ -138,7 +137,7 @@ sudo systemctl daemon-reload
 #Restart Docker service as well
 sudo service docker stop
 sudo service docker start
-
+#########################################################################
 
 
 # https://www.coachdevops.com/2022/05/automate-eks-cluster-using-script-shell.html
