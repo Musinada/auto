@@ -51,35 +51,6 @@ echo "Jenkins installed successfully.."
 
 # copythe public dns name with 8080 port
 
-##################################################################
-#Install Docker
-
-sudo apt-get update
-
-#Install the below packages
-sudo apt install gnupg2 pass -y
-
-#Install docker
-sudo apt install docker.io -y
-
-#Add Ubuntu user to Docker group
-sudo usermod -aG docker $USER
-
-# start Docker
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo systemctl status docker
-
-sudo usermod -a -G docker jenkins
-sudo service jenkins restart
-
-#Reload system daemon files
-sudo systemctl daemon-reload
-
-#Restart Docker service as well
-sudo service docker stop
-sudo service docker start
-
 ##############################################################
 # Install AWS CLI
 
@@ -115,6 +86,39 @@ sudo ./get_helm.sh
 helm version --client
 
 sudo su - jenkins
+
+
+##################################################################
+#Install Docker
+
+sudo apt-get update
+
+#Install the below packages
+sudo apt install gnupg2 pass -y
+
+#Install docker
+sudo apt install docker.io -y
+
+#Add Ubuntu user to Docker group
+sudo usermod -aG docker $USER
+
+# start Docker
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+
+sudo usermod -a -G docker jenkins
+sudo service jenkins restart
+
+#Reload system daemon files
+sudo systemctl daemon-reload
+
+#Restart Docker service as well
+sudo service docker stop
+sudo service docker start
+
+
+
 
 ##############################################################
 #Create EKS cluster using eksctl command
