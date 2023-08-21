@@ -1,5 +1,15 @@
-# Automate EKS Cluster using Bootstrap Script | 
+
+###################################################
+# Author: Anil
+#
+# Date: 21-8-2023
+#
+# version: v1
+#
+# This job is to install and Automate EKS Cluster using Bootstrap Script | 
 # Bootstrap script for setting up Jenkins, Docker and EKS Cluster in AWS cloud
+#
+###################################################
 
 # Pre-requisites:
 # You need to create an IAM role with Administrator Access policy and attach that IAM role to EC2 instance while you provision.
