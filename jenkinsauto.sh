@@ -3,11 +3,11 @@
 ###################################################
 # Author: Anil
 #
-# Date: 21-8-2023
+# Date: 22-8-2023
 #
-# version: v1
+# version: v1.1
 #
-# This job is to setup Jenkins on vm 
+# This job is to setup Jenkins on Ubuntu VM 
 ###################################################
 set -x
 
@@ -81,9 +81,6 @@ sudo ufw enable
 
 # used this link to host jenkins on ubuntu
 # https://phoenixnap.com/kb/install-jenkins-ubuntu 
-
-
-
 
 
 
