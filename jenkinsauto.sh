@@ -74,9 +74,9 @@ sudo ufw enable
 # http://ip_address_or_domain:8080
 # Use the actual IP address or domain name for the server you're using Jenkins on. For example, if you're running Jenkins locally, use localhost (127.0.0.1):
 # http://localhost:8080
-# 2. Obtain the default Jenkins unlock password by opening the terminal and running the following command:
 
-# sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+# 2. Obtain the default Jenkins unlock password by opening the terminal and running the following command:
+ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 
