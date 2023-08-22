@@ -54,6 +54,29 @@ sudo apt update
 # Install Jenkins
 sudo apt install jenkins -y
 
+# To check if Jenkins is installed and running,
+sudo systemctl status jenkins
+
+# Note: If the Jenkins service is not running or active, run the following command to start it:
+# sudo systemctl enable --now jenkins
+
+# Modify Firewall to Allow Jenkins
+# Allow Jenkins to communicate by setting up the default UFW firewall.
+# Open port 8080 by running the following commands:
+sudo ufw allow 8080
+sudo ufw status
+sudo ufw enable
+
+# Set up Jenkins:
+#Follow the steps below to set up Jenkins and start using it:
+
+# 1. Open a web browser, and navigate to your server' IP address. Use the following syntax:
+# http://ip_address_or_domain:8080
+# Use the actual IP address or domain name for the server you're using Jenkins on. For example, if you're running Jenkins locally, use localhost (127.0.0.1):
+# http://localhost:8080
+# 2. Obtain the default Jenkins unlock password by opening the terminal and running the following command:
+
+# sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 
