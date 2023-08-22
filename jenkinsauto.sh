@@ -79,36 +79,8 @@ sudo ufw enable
  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# used this link to host jenkins on ubuntu
+# https://phoenixnap.com/kb/install-jenkins-ubuntu 
 
 
 
