@@ -1,3 +1,20 @@
+#!/bin/bash
+
+###################################################
+# Author: Anil
+#
+# Date: 30-8-2023
+#
+# version: v1.0
+#
+# This job is to configure Jenkins and DockerSlave on same vm &
+# Docker Jenkins integration
+###################################################
+
+
+set -x
+
+
 # Install Jenkins.
 # Pre-Requisites:
 
