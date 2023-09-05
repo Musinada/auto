@@ -1,4 +1,15 @@
-git clone (your code repo)
+#!/bin/bash
+
+###################################################
+# Author: Anil
+#
+# Date: 5-9-2023
+#
+# version: v1.0
+#
+# This job is to push the docker image to docker repository
+###################################################
+git clone (url - your code repo)
 
   # locate the Dockerfile
 
