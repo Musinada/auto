@@ -1,7 +1,11 @@
 # auto
-Single touch automation using all shell and bash scripting on kubernetes 
+Single touch automation using all shell and bash scripting on Kubernetes 
 Eks Ckuster
-Docker Jenkins Integreation
+Docker Jenkins Integration
 Eks single touch automation bash scripting
 Eks automation
-HTTP/1.1"
+Artifactory using Docker
+Docker containerization Django application
+Jenkins auto
+S3
+Jenkins Docker Slave Configure
